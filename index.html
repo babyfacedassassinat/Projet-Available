@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Réveil d'Ambition</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32">
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -18,298 +20,784 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <!-- NAVBAR - Premium White -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top py-2" id="mainNav">
+    <div class="container">
+
+        <!-- Logo uniquement -->
+        <a class="navbar-brand d-flex align-items-center" href="#page-top">
+            <img src="/assets/img/navbar-logo.svg" alt="Logo" height="38">
+        </a>
+
+        <!-- Mobile Button -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-lg text-dark"></i>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto align-items-center fw-bold" style="font-size: 1.05rem;">
+
+                <li class="nav-item px-2">
+                    <a class="nav-link text-dark" href="#services">Qui Nous Sommes ?</a>
+                </li>
+
+                <li class="nav-item px-2">
+                    <a class="nav-link text-dark" href="#portfolio">Nos Actions</a>
+                </li>
+
+                <li class="nav-item px-2">
+                    <a class="nav-link text-dark" href="#programme">Programme</a>
+                </li>
+
+                <li class="nav-item px-2">
+                    <a class="nav-link text-dark" href="#team">Équipe</a>
+                </li>
+
+                <li class="nav-item ps-3">
+                    <a class="btn btn-primary rounded-pill px-4 py-2 fw-bold shadow-sm" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-            </div>
-        </header>
+        <header class="saas-hero-dark blur-bg d-flex align-items-center justify-content-center text-center position-relative">
+    <img src="/assets/img/header-bg.jpg" class="hero-blur-image" alt="">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative">
+        <h1 class="display-4 fw-bold text-white mb-4 fade-up">
+            Libérer les capacités. <br>
+            <span class="text-accent">Redonner du pouvoir.</span>
+        </h1>
+
+        <p class="lead text-light opacity-75 mb-5 fade-up delay-1" style="max-width: 700px; margin: auto;">
+            <strong>Réveil d’Ambition</strong> est un programme d’impact qui accompagne,
+            valorise et connecte les personnes en situation de handicap à des opportunités
+            d’autonomie, de formation et d’innovation.
+        </p>
+
+        <a href="https://forms.gle/7sggHmXUccYUAxgQ6" class="btn btn-primary btn-lg rounded-pill shadow px-5 py-3 fade-up delay-2">
+            Je m'inscris au programme, et vous ?
+        </a>
+    </div>
+</header>
+
         <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+        <section class="page-section py-5" id="services" style="background: linear-gradient(135deg, #0b1a2e 0%, #0e2f55 100%);">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase text-white fw-bold fade-up">Qui Nous Sommes</h2>
+            <p class="section-subheading text-light opacity-75 fade-up delay-1" style="max-width: 700px; margin: auto;">
+                Un programme innovant dédié à l'inclusion, à l’autonomie et au leadership.
+            </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-md-4">
+                <div class="service-card p-4 h-100 text-center rounded-4 shadow-lg bg-dark-card fade-up">
+                    <div class="icon-wrapper mb-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: rgba(223,120,18,0.15);"></i>
+                            <i class="fas fa-seedling fa-stack-1x" style="color: #df7812;"></i>
                         </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    <h4 class="fw-bold mb-3 text-white">Notre Mission</h4>
+                    <p class="text-light opacity-75">
+                        Développer un écosystème d’accompagnement qui renforce les compétences,
+                        l’autonomie et l’accès aux opportunités pour chaque personne en situation de handicap.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-md-4">
+                <div class="service-card p-4 h-100 text-center rounded-4 shadow-lg bg-dark-card fade-up delay-1">
+                    <div class="icon-wrapper mb-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: rgba(223,120,18,0.15);"></i>
+                            <i class="fas fa-globe-africa fa-stack-1x" style="color: #df7812;"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                    <h4 class="fw-bold mb-3 text-white">Notre Vision</h4>
+                    <p class="text-light opacity-75">
+                        Une société inclusive où chacun peut apprendre, entreprendre, créer
+                        et contribuer pleinement à la transformation de sa communauté.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-md-4">
+                <div class="service-card p-4 h-100 text-center rounded-4 shadow-lg bg-dark-card fade-up delay-2">
+                    <div class="icon-wrapper mb-3">
+                        <span class="fa-stack fa-3x">
+                            <i class="fas fa-circle fa-stack-2x" style="color: rgba(223,120,18,0.15);"></i>
+                            <i class="fas fa-network-wired fa-stack-1x" style="color: #df7812;"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
-                    </div>
+                    <h4 class="fw-bold mb-3 text-white">Notre ADN</h4>
+                    <p class="text-light opacity-75">
+                        « Réveil d’Ambition » est porté par <strong>Lerane Africa</strong> et
+                        le <strong>GIE Jappo Liguey</strong>, unis pour offrir formation, mentoring,
+                        accompagnement et valorisation des talents.
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+        <!-- Initiatives Grid -->
+<section class="page-section" id="portfolio" style="background: linear-gradient(135deg, #0b1a2e 0%, #0e2f55 100%);">
+    <div class="container">
+        
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase text-white fw-bold fade-up">Nos Actions</h2>
+            <p class="section-subheading text-light opacity-75 fade-up delay-1" style="max-width: 700px; margin: auto;">
+                Découvrez comment <strong>Réveil d’Ambition</strong> accompagne, forme et valorise les talents des personnes en situation de handicap.
+            </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="row g-4">
+
+            <!-- Initiative 1 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/1.jpg" alt="Formation">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal1">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Formation</h5>
+                        <p class="text-light opacity-75 text-center">Sessions pour développer les compétences techniques et professionnelles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 2 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/2.jpg" alt="Mentoring">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal2">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Mentoring</h5>
+                        <p class="text-light opacity-75 text-center">Accompagnement personnalisé pour booster la confiance et l’autonomie.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 3 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/3.jpg" alt="Projets">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal3">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Projets</h5>
+                        <p class="text-light opacity-75 text-center">Création et participation à des projets inclusifs pour développer des compétences réelles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 4 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/4.jpg" alt="Communauté">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal4">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Communauté</h5>
+                        <p class="text-light opacity-75 text-center">Créer des réseaux et favoriser les échanges entre participants et mentors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 5 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/5.jpg" alt="Événements">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal5">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Événements</h5>
+                        <p class="text-light opacity-75 text-center">Ateliers, conférences et rencontres pour partager expériences et savoir-faire.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Initiative 6 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-card position-relative rounded-4 overflow-hidden shadow-lg">
+                    <img class="img-fluid" src="/assets/img/portfolio/6.jpg" alt="Impact">
+                    <div class="portfolio-hover position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background: rgba(0,0,0,0.6); opacity: 0; transition: 0.3s; cursor:pointer;"
+                        data-bs-toggle="modal" data-bs-target="#modal6">
+                        <i class="fas fa-plus fa-3x text-accent mb-3"></i>
+                        <h5 class="text-white fw-bold">Impact</h5>
+                        <p class="text-light opacity-75 text-center">Suivi et mesure des progrès pour maximiser l’autonomie et l’inclusion.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Modals -->
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Formation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/1.jpg" class="img-fluid mb-3 rounded" alt="Formation">
+        <p>Sessions pour développer les compétences techniques et professionnelles des participants.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Mentoring</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/2.jpg" class="img-fluid mb-3 rounded" alt="Mentoring">
+        <p>Accompagnement personnalisé pour booster la confiance et l’autonomie des participants.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Projets</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/3.jpg" class="img-fluid mb-3 rounded" alt="Projets">
+        <p>Création et participation à des projets inclusifs pour développer des compétences réelles.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Communauté</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/4.jpg" class="img-fluid mb-3 rounded" alt="Communauté">
+        <p>Créer des réseaux et favoriser les échanges entre participants et mentors.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Événements</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/5.jpg" class="img-fluid mb-3 rounded" alt="Événements">
+        <p>Ateliers, conférences et rencontres pour partager expériences et savoir-faire.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Impact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="/assets/img/portfolio/6.jpg" class="img-fluid mb-3 rounded" alt="Impact">
+        <p>Suivi et mesure des progrès pour maximiser l’autonomie et l’inclusion.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- Programme-->
+        <section class="page-section" id="programme">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-heading text-uppercase">Programme</h2>
+      <h3 class="section-subheading text-muted">Déroulement de l'événement</h3>
+    </div>
+
+    <ul class="timeline">
+
+      <!-- Item 1 -->
+      <li>
+        <div class="timeline-image bg-accent text-white d-flex align-items-center justify-content-center">
+          <i class="fas fa-chalkboard-teacher fa-2x"></i>
+        </div>
+        <div class="timeline-panel">
+          <h4 class="timeline-title">Formation entrepreneuriat</h4>
+          <h6 class="text-muted">+ Formation cosmétique</h6>
+          <p><i class="fas fa-clock"></i> <strong>Durée :</strong> 3 jours</p>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Dates :</strong> 08, 09 et 10 Décembre</p>
+          <p><i class="fas fa-users"></i> <strong>Participants :</strong> 25 personnes en situation de handicap</p>
+        </div>
+      </li>
+
+      <!-- Item 2 -->
+      <li class="timeline-inverted">
+        <div class="timeline-image bg-accent text-white d-flex align-items-center justify-content-center">
+          <i class="fas fa-university fa-2x"></i>
+        </div>
+        <div class="timeline-panel">
+          <h4 class="timeline-title">Masterclass Gratuite</h4>
+          <h6 class="text-muted">Éducation Financière • Personnes Handicapées</h6>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Date :</strong> 18 Décembre</p>
+          <p><i class="fas fa-users"></i> <strong>Participants :</strong> 30 personnes</p>
+        </div>
+      </li>
+
+      <!-- Item 3 -->
+      <li>
+        <div class="timeline-image bg-accent text-white d-flex align-items-center justify-content-center">
+          <i class="fas fa-hand-holding-usd fa-2x"></i>
+        </div>
+        <div class="timeline-panel">
+          <h4 class="timeline-title">Masterclass Gratuite</h4>
+          <h6 class="text-muted">Éducation Financière • Personnes Non Handicapées</h6>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Date :</strong> 19 Décembre</p>
+          <p>Transport non pris en charge.</p>
+        </div>
+      </li>
+
+      <!-- Item 4 -->
+      <li class="timeline-inverted">
+        <div class="timeline-image bg-accent text-white d-flex align-items-center justify-content-center">
+          <i class="fas fa-flag-checkered fa-2x"></i>
+        </div>
+        <div class="timeline-panel">
+          <h4 class="timeline-title">Clôture du Programme</h4>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Date :</strong> Samedi 20 Décembre à 09h</p>
+        </div>
+      </li>
+
+      <!-- Item 5 -->
+      <li>
+        <div class="timeline-image bg-accent text-white d-flex align-items-center justify-content-center">
+          <i class="fas fa-gift fa-2x"></i>
+        </div>
+        <div class="timeline-panel">
+          <h4 class="timeline-title">Dons pour les Pouponnières et Daaras</h4>
+          <p>Effectués après la clôture du programme.</p>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Date :</strong> 27 Décembre</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <!-- Team -->
+<section class="page-section bg-light" id="team">
+    <div class="container">
+
+        <!-- Title -->
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Notre Équipe</h2>
+            <h3 class="section-subheading text-muted">Les femmes et hommes derrière le programme</h3>
+        </div>
+
+        <!-- Coordination Générale -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Coordination Générale</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="">
+                    <h4>Mame Tine DIOUF</h4>
+                    <p class="text-muted">Coordinatrice Générale <br> PDG Lerane Africa</p> 
+                    <!-- Réseaux sociaux laissés intact -->
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@tineleraneafrica?_r=1&_t=ZM-91hTAcO6f3U"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/share/1MfHkYaB6W/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>  
+                    </ul>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="">
+                    <h4>Thierno DIAO</h4>
+                    <p class="text-muted">Responsable Partenariats & Relations Publiques <br> SG Lerane Africa</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>  
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="">
+                    <h4>Rokhaya WADE</h4>
+                    <p class="text-muted">Adjointe Partenariats & Relations Publiques <br> PDG Kya Event's</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@kyawade3?_r=1&_t=ZM-91hDysR0eSp"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/_________kya_event?igsh=MTQxcHUxZjJjemdraQ%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>  
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/rokhaya-wade-5b9521247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formation -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Formation & Développement</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="">
+                    <h4>Rokhaya SOW</h4>
+                    <p class="text-muted">Responsable des Formations <br> Présidente GIE Jappo Liguey</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inclusion -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Appui & Inclusion</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/8.jpg" alt="">
+                    <h4>Gaoussou DIALLO</h4>
+                    <p class="text-muted">Responsable Appui & Inclusion <br> Directeur École Bassirou MBACKÉ </p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/5.jpg" alt="">
+                    <h4>Coumba DIOUF</h4>
+                    <p class="text-muted">Adjointe Appui & Inclusion</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@coumbadiouf1342?_r=1&_t=ZM-91hx81SFouB"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/share/1BTPPNGtM7/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suivi - Évaluation -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Suivi – Évaluation</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/6.jpg" alt="">
+                    <h4>Seynabou LY</h4>
+                    <p class="text-muted">Responsable S&E</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/seynabouly60?igsh=czZoM3ltYzhzbnI2"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/share/1AtTvENN4Q/"><i class="fab fa-facebook-f"></i></a>  
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/seynabou-ly-124ab5256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/11.jpg" alt="">
+                    <h4>Massar MBENGUE</h4>
+                    <p class="text-muted">Adjoint S&E <br> L'Initiateur Nitu Nit Ñi</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <li class="list-inline-item">
+                            <a href="https://vm.tiktok.com/ZMHT2C4aHg1Sg-RVpu7/"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/profile.php?id=61567906470287"><i class="fab fa-facebook-f"></i></a>  
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/12.jpg" alt="">
+                    <h4>Astou Maria DIEDHIOU</h4>
+                    <p class="text-muted">Adjointe S&E <br> PDG DieMaria Art Gallery</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <li class="list-inline-item">
+                            <a href="www.tiktok.com/@midwife__4"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/d_mariakunst?igsh=MXhhMDQ1eDNyc253eA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>  
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Communication -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Communication & Médias</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/7.jpg" alt="">
+                    <h4>Gorgui NDIAYE</h4>
+                    <p class="text-muted">Responsable Communication & Médias <br> PDG Goz'Art</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/gozart_graph_num?igsh=cGpmMTZrczZ5NjV1&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/share/16kgH12LxH/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/13.jpg" alt="">
+                    <h4>Karkass</h4>
+                    <p class="text-muted">Adjoint Communication & Médias <br> Artiste & Entrepreneur Culturel </p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/karkass_officiel?igsh=NW9veDFwOW92OWZh"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logistique -->
+        <div class="text-center my-5">
+            <div class="role-icon" style="font-size: 2.3rem;"></div>
+            <h4 class="fw-bold text-primary mt-2">Logistique & Organisation</h4>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/9.jpg" alt="">
+                    <h4>Mariama GAYE</h4>
+                    <p class="text-muted">Responsable Logistique & Organisation <br> PDG Crêperie Gandiol</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@creperiegandiol?_r=1&_t=ZS-91hEWv8Eooq"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/share/14RnmT3oZoP/"><i class="fab fa-facebook-f"></i></a>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="team-member text-center">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/10.jpg" alt="">
+                    <h4>Oumy GUEYE</h4>
+                    <p class="text-muted">Adjointe Logistique & Organisation <br> PDG Natura'Goût</p>
+                    <ul class="list-inline social-buttons mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.tiktok.com/@mxll_gueye1?_r=1&_t=ZM-91hEyCbvkQ0"><i class="fab fa-tiktok"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Notre mission s’adresse à tous : enfants, jeunes, femmes et adultes vivant avec un handicap. Nous créons des programmes inclusifs qui respectent la dignité, les besoins et les aspirations de chacun, tout en construisant une société plus accessible et plus solidaire.</p></div>
+        </div>
+    </div>
+</section>
+        <!-- Partenaires -->
+<div class="py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="section-heading text-uppercase">Nos Partenaires</h2>
+            <h3 class="section-subheading text-muted">Ils nous accompagnent dans notre mission</h3>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/lerane.svg" alt="Lerane Africa" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/GIE.svg" alt="Lerane Africa" /></a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/anpej.svg" alt="ANPEJ" /></a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/cmc.svg" alt="CMC" /></a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/sama.svg" alt="SAMA" /></a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/cre.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/crepe.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/ds.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/espace.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/goz.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/humanite.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/ibms.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/kya.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/mc.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/metzo.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/nitu.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/noflay.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/paradox.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/zeynab.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/sf.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/yeah.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/vol.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/ajcs.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/natura.svg" alt="SF" /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/die.svg" alt="SF" /></a>
+            </div>
+        </div>
+    </div>
+</div>
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="section-heading text-uppercase">Contactez-Nous</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
@@ -324,25 +812,25 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Votre Nom & Prénom" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="Votre Mail *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" placeholder="Votre Numéro de Téléphone" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Votre Message" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
@@ -365,7 +853,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Envoyez le Message</button></div>
                 </form>
             </div>
         </section>
@@ -373,12 +861,11 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 text-lg-start">Copyright &copy; Your Website 2021</div>
-                    <div class="col-lg-3 text-lg-start">Distributed By <a href="https://themewagon.com/">Themewagon</a></div>
+                    <div class="col-lg-3 text-lg-start">Copyright &copy; 2025</div>
+                    <div class="col-lg-3 text-lg-start">Distributed By <a href="">Réveil d'Ambition</a></div>
                     <div class="col-lg-3 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@tineleraneafrica?_r=1&_t=ZM-91hTAcO6f3U"><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/share/1MfHkYaB6W/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
                     </div>
                     <div class="col-lg-3 text-lg-end">
                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -387,219 +874,10 @@
                 </div>
             </div>
         </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
@@ -607,5 +885,29 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+       
+        <!-- Hover Effect -->
+         <script>
+  
+            document.querySelectorAll('.portfolio-card').forEach(card => {
+  
+                card.addEventListener('mouseover', () => {
+  
+                    card.querySelector('.portfolio-hover').style.opacity = 1;
+  
+                });
+  
+                card.addEventListener('mouseout', () => {
+  
+                    card.querySelector('.portfolio-hover').style.opacity = 0;
+  
+                });
+  
+            });
+
+        </script>
+
+
+
     </body>
 </html>
