@@ -10884,12 +10884,12 @@ p {
   padding: 0;
   border-radius: 100%;
 }
-
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
 }
+
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
@@ -10897,6 +10897,7 @@ p {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 #mainNav .navbar-brand {
   color: #df7812;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10904,20 +10905,26 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
+
 #mainNav .navbar-brand img {
   height: 5rem;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #df7812;
 }
 
+/* DESKTOP */
 @media (min-width: 992px) {
+
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -10925,33 +10932,80 @@ p {
     background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.5em;
     transition: font-size 0.3s ease-in-out;
   }
+
   #mainNav .navbar-brand img {
     height: 5rem;
     transition: height 0.3s ease-in-out;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
-  #mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
+
+  #mainNav.navbar-shrink .navbar-brand img {
     height: 5rem;
   }
+
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
   }
+
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
 }
+
+/* MOBILE */
+@media (max-width: 991.98px) {
+
+  /* Hauteur générale */
+  #mainNav {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  /* Taille du logo */
+  #mainNav .navbar-brand img {
+    height: 40px !important;
+    width: auto !important;
+    object-fit: contain;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  #mainNav .navbar-toggler {
+    padding: 0.25rem 0.35rem !important;
+    margin-left: auto;
+  }
+
+  #mainNav .navbar-nav .nav-link {
+    padding: 0.75rem 0 !important;
+    font-size: 1rem;
+  }
+
+  #mainNav .navbar-nav .btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0.75rem 0 !important;
+  }
+
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
